@@ -1,8 +1,7 @@
-from typing import Annotated
 from PIL import Image
 import aiofiles
 from docx2pdf import convert
-import pywintypes
+
 
 from fastapi import FastAPI, UploadFile, HTTPException
 from fastapi.responses import FileResponse
