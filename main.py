@@ -1,7 +1,7 @@
 from PIL import Image
 import aiofiles
 from docx2pdf import convert
-from PyPDF2 import PdfMerger, PdfReader
+from PyPDF2 import PdfMerger
 
 from fastapi import FastAPI, UploadFile, HTTPException
 from fastapi.responses import FileResponse
